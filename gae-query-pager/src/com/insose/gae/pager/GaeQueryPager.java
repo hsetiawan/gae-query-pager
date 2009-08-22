@@ -47,6 +47,8 @@ import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 
 /**
+ * Generic Forward and Backward Bookmark paging for Google App Engine for Java.<br>
+ * <br>
  * At the present time, the Google App Engine does not provide a built-in
  * pagination support. There are various methods how one can implement limited
  * pagination manually, but writing the paging queries by hand can be tedious
