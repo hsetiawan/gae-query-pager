@@ -1,3 +1,4 @@
+{{{<pre>}}}
  |F|                                        |F| ORDER BY __key__ ASC                                     |F| WHERE __key__ > B1 ORDER BY __key__ ASC
 
  |B|                                        |B| ORDER BY __key__ DESC                                    |B| WHERE __key__ < B1 ORDER BY __key__ DESC
@@ -97,3 +98,4 @@
 
  |B| WHERE x > p1 && x < p2 ORDER BY x DESC |B| WHERE x > p1 && x < p2 ORDER BY x ASC, __key__ DESC      |B| WHERE x == B1 && __key__ < B2 ORDER BY __key__ DESC
  |B|                                        |B|                                                          |B| WHERE x < B1 && x > p1 ORDER BY x DESC, __key__ DESC
+{{{</pre>}}}
