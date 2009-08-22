@@ -1,4 +1,12 @@
 {{{
+
+ |F| means forward
+ |B| means backward
+
+
+
+ Base query                                 Start bookmarkable query                                     Restart queries
+
  |F|                                        |F| ORDER BY __key__ ASC                                     |F| WHERE __key__ > B1 ORDER BY __key__ ASC
 
  |B|                                        |B| ORDER BY __key__ DESC                                    |B| WHERE __key__ < B1 ORDER BY __key__ DESC
