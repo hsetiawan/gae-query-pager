@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="dist">
+
+	<target name="dist">
+		
+		<jar destfile="dist/gae-query-pager-1.0.jar" update="false">
+		
+			<fileset dir="src">
+				<exclude name="**/*.properties"/>
+				<exclude name="test/**"/>
+			</fileset>
+
+			<fileset dir="war/WEB-INF/classes">
+				<exclude name="**/*.properties"/>
+				<exclude name="test/**"/>
+			</fileset>
+		</jar>
+	
+	</target>
+	
+</project>
