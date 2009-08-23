@@ -111,7 +111,7 @@ public class GaeQuery {
 	/**
 	 * Create a new query from a limited substet of JDOQL syntax.<br>
 	 * <br>
-	 * <b>query:</b><br><code>[SELECT [[WHERE <b>filters</b>] [PARAMETERS <b>parameters</b>]] [ORDER BY <b>orders</b>]]</code><br>
+	 * <b>query:</b><br><code>[[WHERE <b>filters</b>] [PARAMETERS <b>parameters</b>]] [ORDER BY <b>orders</b>]</code><br>
 	 * <b>filters:</b><br><code>filter [&& filters]</code><br>
 	 * <b>filter:</b><br><code>properyName operator parameterName</code><br>
 	 * <b>operator:</b><br>one of: <code>&lt; &lt;= == &gt; &gt;=</code><br>
